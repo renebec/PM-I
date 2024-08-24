@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body id="bodyT1S1s2r2">
+<script src="printer.js"></script>
+<link rel="stylesheet">
+<title>PyE T1S1s2r2</title>
+<!--<div id="html-content-holder" style="background-color: #F0F0F1;
+                color: #00cc65; width: 500px;padding-left: 25px;
+                padding-top: 10px;">-->
+<script src="actions.js"></script>
+<div>
+
+<table border=0
+       id="table1"
+           style="background-color:lightgrey;color:#333333"
+           class="center2">
+     1.2.<br>
+     Rúbrica 2<br><br>
+    <caption style="caption-side:bottom;text-align: left;font-size:20px">Puntuación máxima: 25 puntos<br>
+        n = suma de puntos obtenidos<br>
+    Calificación = (n &divide; 25) x 10</caption>
+    <button onclick="printFunction()" id="buttonPrintT1S1s2r2">Imprimir</button>
+    <br>
+    <br>
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th><u>Rasgos a evaluar</u></th>
+                   <th><u>Nivel C: <br>5 puntos</u></th>
+                   <th><u>Nivel B: <br>3 puntos</u></th>
+                   <th><u>Nivel A: <br>0 puntos</u></th>
+               <tr>
+               </thead>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 1</td>
+                    <td align="right">Identifica claramente la problemática central</td>
+                    <td align="right">Identifica parcialmente la problemática central.</td>
+                    <td align="right">No identifica la problemática central.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 2</td>
+                    <td align="right">Identifica claramente todos los personajes, lugares y situaciones de la lectura.</td>
+                    <td align="right">Identifica parcialmente todos los personajes, lugares y situaciones de la lectura.</td>
+                    <td align="right">No identifica personajes, lugares ni situaciones.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td><td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 3</td>
+                    <td align="right">Crea una variable con los datos de edades de la Tabla 1 de manera correcta.</td>
+                    <td align="right">Crea una variable con los datos de edades de la Tabla 1 aunque con errores.</td>
+                    <td align="right">No logra crear una variable con los datos de la Tabla 1.</td></tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 4</td>
+                    <td align="right">Identifica valores máximos y mínimos.</td>
+                    <td align="right">Identifica el valor máximo o el mínimo pero no ambos.</td>
+                    <td align="right">No identifica valores máximo ni mínimos.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 5</td>
+                    <td align="right">Toma una decisión correcta basada en la información disponible.</td>
+                    <td align="right">Toma claramente una decisión incorrecta a pesar de contar con información.</td>
+                    <td align="right">No toma una decisión clara.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                </table>
+
+<br>
+    <button onclick="PopWinClose()"
+                                style="background-color:#993622;font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+<br>
+    <br>
+    <br>
+
+
+    <!--
+<input id="btn-Preview-Image" type="button"
+                value="Preview" />
+
+    <a id="btn-Convert-Html2Image" href="#">
+        Download
+    </a>
+
+    <br/>
+
+
+    <div id="previewImage"></div>
+
+
+    <script>
+
+        $(document).ready(function() {
+
+            // Global variable
+            var element = $("#html-content-holder");
+
+            // Global variable
+            var getCanvas;
+
+            $("#btn-Preview-Image").on('click', function() {
+                html2canvas(element, {
+                    onrendered: function(canvas) {
+                        $("#previewImage").append(canvas);
+                        getCanvas = canvas;
+                    }
+                });
+            });
+
+            $("#btn-Convert-Html2Image").on('click', function() {
+                var imgageData =
+                    getCanvas.toDataURL("image/png");
+
+                // Now browser starts downloading
+                // it instead of just showing it
+                var newData = imgageData.replace(
+                /^data:image\/png/, "data:application/octet-stream");
+
+                $("#btn-Convert-Html2Image").attr(
+                "download", "GeeksForGeeks.png").attr(
+                "href", newData);
+            });
+        });
+
+    </script>
+
+
+-->
+</div>
+</body>
+</html>
