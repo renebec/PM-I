@@ -41,34 +41,9 @@ function PopWinA1r1()
     floatingWindow = window.open("popA1r1.html","","height=400,width=400,scrollbars=yes");
 }
 
-
-function PopWinA1s1_2()
-{
-    window.open("popA1s1_2.html","width=100%", "_self");
-}
-
-
 function PopWinA1r2()
 {
     floatingWindow = window.open("popA1r2.html","","height=400,width=400,scrollbars=yes");
-}
-
-
-function PopWinA1s1_2w1()
-{
-    window.open("popA1s1_2w1.html","","height=400,width=400,scrollbars=yes");
-}
-
-
-function PopWinA1s1_2w2()
-{
-    window.open("popA1s1_2w2.html","","height=400,width=400,scrollbars=yes");
-}
-
-
-function PopWinA1s1_3()
-{
-    window.open("popA1s1_3.html","width=100%", "_self");
 }
 
 function PopWinA1r3()
@@ -81,19 +56,33 @@ function PopWinA1r4()
     floatingWindow = window.open("popA1r4.html","","height=400,width=400,scrollbars=yes");
 }
 
-function PopWinA1s1_4()
+
+function PopWinA2s1()
 {
-    window.open("popA1s1_4.html","width=100%", "_self");
+    window.open("popA2s1.html","width=100%", "_self");
+}
+function PopWinA2r5()
+{
+    floatingWindow = window.open("popA2r5.html","","height=400,width=400,scrollbars=yes");
 }
 
-
-
-function PopWinA1s1_5()
+function PopWinA2s2()
 {
-    window.open("popA1s1_5.html","width=100%", "_self");
+    window.open("popA2s2.html","width=100%", "_self");
+}
+function PopWinA2r6()
+{
+    floatingWindow = window.open("popA2r6.html","","height=400,width=400,scrollbars=yes");
 }
 
-
+function PopWinA2s3()
+{
+    window.open("popA2s3.html","width=100%", "_self");
+}
+function PopWinA2r7()
+{
+    floatingWindow = window.open("popA2r7.html","","height=400,width=400,scrollbars=yes");
+}
 
 
 
