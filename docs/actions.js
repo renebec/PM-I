@@ -85,6 +85,40 @@ function PopWinA2r7()
 }
 
 
+function PopWinA3()
+{
+    window.open("popA3.html","width=100%", "_self");
+}
+function PopWinA3s1()
+{
+    window.open("popA3s1.html","width=100%", "_self");
+}
+function PopWinA3r8()
+{
+    window.open("popA3r8.html","width=100%", "_self");
+}
+
+function PopWinA3s2()
+{
+    window.open("popA3s2.html","width=100%", "_self");
+}
+function PopWinA3r9()
+{
+    window.open("popA3r9.html","width=100%", "_self");
+}
+function PopWinA3r10()
+{
+    window.open("popA3r10.html","width=100%", "_self");
+}
+function PopWinA3r11()
+{
+    window.open("popA3r11.html","width=100%", "_self");
+}
+
+function PopWinA3s3()
+{
+    window.open("popA3s3.html","width=100%", "_self");
+}
 
 
 

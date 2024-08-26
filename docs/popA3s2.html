@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en;sp">
+<head>
+    <meta charset="UTF-8">
+    <title>UAC III desarrollo</title>
+    <meta name="primer bimestre"  content="notranslate;"/>
+    <meta name="Author" content="Héctor René Becerril Cejudo"/>
+    <meta name="keywords" content="pensamiento probabilístico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body translate="no">
+<script src="actions.js"></script>
+<a id="home"></a>
+<img src = "https://cdn.dribbble.com/users/8619169/screenshots/16116886/media/a63d64bcccad878cb9dfdb9a9f6b6416.gif"
+             style =height:270px;width:45%;float:center;>
+    <img src = "https://cdn.dribbble.com/users/13496/screenshots/1327531/analytics-app.gif"
+             style =height:270px;width:45%;float:center;>
+
+    <text style="font-size:16px;color:grey;text-align:center;"
+                  class="center">
+               M.C.HRBC&emsp;&emsp;&emsp;&emsp;  imagen: https://dribbble.com/ &emsp;&emsp;http://sdo1.krsk.irgups.ru/
+            </text>
+<button onclick="PopWinA3s1()"
+                                style="font-weight:bold;color:white;width:100px" class="botonBack">
+                   <<</button>
+<button onclick="PopWinA3s3()"
+                                style="font-weight:bold;color:white;width:100px" class="botonNext">
+                   >></button><br>
+<button onclick="PopWinClose()"
+                                style="font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+
+<br>
+<br>
+<section class = "blue">
+    UAC III. Desarrollo. <br>
+    Duración: 185 minutos
+
+    <div id="toc_container">
+
+        <ul class="toc_list" style="text-decoration: none;">
+
+            <br>
+            <li>
+                <a onclick="#Situación 3" href="#Situación 3">
+                    <button onclick="#Situación 3"
+                                style="font-weight:bold;color:white;width:100px" class="boton" href="#Situación 3">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Situación 3
+                      </text></a>
+            </li>
+            <li>
+                <a onclick="#Actividad 9" href="#Actividad 9">
+                    <button onclick="#Actividad 9" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Actividad 9
+                      </text></a>
+            </li>
+            <li>
+                <a href="#Situación 3b">
+                    <button onclick="#Situación 3b" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Situación 3... continuación
+                      </text></a>
+            </li>
+            <li>
+                <a onclick="#Actividad 10" href="#Actividad 10">
+                    <button onclick="#Actividad 10" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Actividad 10
+                      </text></a>
+            </li>
+            <li>
+                <a onclick="#Lectura 10" href="#Lectura 10">
+                    <button onclick="#Lectura 10" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Lectura 10
+                      </text></a>
+            </li>
+            <li>
+                <a href="#Situación 4">
+                    <button onclick="#Situación 4" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Situación 4
+                      </text></a>
+            </li>
+            <li>
+                <a onclick="#Actividad 11" href="#Actividad 11">
+                    <button onclick="#Actividad 11" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Actividad 11
+                      </text></a>
+            </li>
+            <li>
+                <a onclick="#Lectura 11" href="#Lectura 11">
+                    <button onclick="#Lectura 11" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Lectura 11
+                      </text></a>
+            </li>
+            <li>
+                <a href="#Situación 5">
+                    <button onclick="#Situación 5" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Situación 5
+                      </text></a>
+            </li>
+            <li>
+                <a onclick="#Actividad 12" href="#Actividad 12">
+                    <button onclick="#Actividad 12" style="font-weight:bold;color:white;width:100px" class="boton">
+                    ir &#129094;</button>
+                    <text style="color:white;font-weight:bold;">Actividad 12
+                      </text></a>
+            </li>
+        </ul>
+    </div>
+
+                <br>
+<a id="Situación 3"></a>
+<h1 class="situación">
+
+            &ensp;Situación 3
+            <br>
+            &emsp;&emsp;Verifica la cantidad de equipos defectuosos en una tienda de celulares
+
+    </h1>
+    <i>35 minutos</i>
+    <br>
+    <br>
+    El dueño de una tienda de teléfonos celulares está interesado en saber si en
+    el inventario existen equipos defectuosos. El inventario cuenta con un total de
+    150 equipos ( N = 150 ) de 3 marcas diferentes (Seyco, Shoy y Traxa). El dueño diseñó un
+    experimento que consiste en abrir algunas de las cajas y verificar si el equipo
+    funciona correctamente (Funcionan) o si está defectuoso (Defectuosos). Se decidió tomar una muestra de
+    10 teléfonos de cada una de las marcas que hay en el inventario, lo que da un total
+    de 30 equipos para revisar ( n = 30 ). Los resultados
+    se muestran en la Tabla 7.
+    <br>
+    <br>
+    <h7 class="tabla">
+        Tabla 7. Frecuencias observadas en el experimento de los celulares defectuosos.
+    </h7>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;">
+            <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>Defectuosos</b></th>
+                   <th style="text-align:center;"><b>Funcionan</b></th>
+               </tr>
+            </thead>
+                <tr>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6</td>
+                    <td style="text-align:center;">4</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3</td>
+                    <td style="text-align:center;">7</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1</td>
+                    <td style="text-align:center;">9</td>
+               </tr>
+    </table>
+        <br>
+        <br>
+    Pon mucha atención en lo siguiente. Vamos a agregar una columna y una fila más
+    a la tabla y las llamaremos <b>marginales</b>. En los marginales vamos a escribir
+    la suma de cada fila y la suma de cada columna, en la celda de la esquina inferior
+    derecha escribiremos la <b>suma de los marginales</b> como se muestra en la Tabla 8.
+    <br>
+    <br>
+    <h7 class="tabla">
+        Tabla 8. Frecuencias observadas con sumas de los marginales.
+    </h7>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;">
+            <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>Defectuosos</b></th>
+                   <th style="text-align:center;"><b>Funcionan</b></th>
+                   <th style="text-align:center;"><b>Suma</b></th>
+               </tr>
+            </thead>
+                <tr>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6</td>
+                    <td style="text-align:center;">4</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3</td>
+                    <td style="text-align:center;">7</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1</td>
+                    <td style="text-align:center;">9</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+        <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
+                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
+               </tr>
+    </table>
+    <br>
+    <br>
+    Ahora, si queremos saber el porcentaje de celulares defectuosos solamente de la marca Seyco,
+    basta con dividir la cantidad de Defectuosos de la <b>fila 1</b> entre la suma <b>marginal</b>
+    de la misma fila como se muestra en la Tabla 9:
+    <br>
+    <br>
+    <h7 class="tabla">
+        Tabla 9. Frecuencias observadas con marginales y razón de defectuosos de la marca Seyco.
+    </h7>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;">
+            <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>Defectuosos</b></th>
+                   <th style="text-align:center;"><b>Funcionan</b></th>
+                   <th style="text-align:center;"><b>Suma</b></th>
+                   <th style="text-align:center;"><b>razón de<br>defectuosos</b></th>
+               </tr>
+            </thead>
+                <tr>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6</td>
+                    <td style="text-align:center;">4</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;">6/10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3</td>
+                    <td style="text-align:center;">7</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1</td>
+                    <td style="text-align:center;">9</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+        <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
+                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
+               </tr>
+    </table>
+    <br>
+    <br>
+    La razón de Defectuosos con respecto al total de equipos de la marca Seyco es:
+    <br>
+    <br>
+    &emsp;6 / 10 = 0.6
+    <br>
+    <br>
+    la razón 6/10 nos da como resultado 0.6, si queremos expresar esa razón como porcentaje
+    basta con multiplicar por 100 el número decimal que obtuvimos:
+    <br>
+    <br>
+    &emsp;0.6 * 100 = 60
+    <br>
+    <br>
+    Y decimos que hay un 60% de equipos Defectuosos en la muestra de la marca Seyco. Ahora
+    agregaremos una columna para escribir el porcentaje de Defectuosos de la marca Seyco como
+    se muestra en la Tabla 10.
+    <br>
+    <br>
+    <h7 class="tabla">
+        Tabla 10. Frecuencias observadas con marginales, razón y porcentaje (%)
+        de defectuosos de la marca Seyco.
+    </h7>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;">
+            <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>Defectuosos</b></th>
+                   <th style="text-align:center;"><b>Funcionan</b></th>
+                   <th style="text-align:center;"><b>Suma</b></th>
+                   <th style="text-align:center;"><b>razón de<br>defectuosos</b></th>
+                   <th style="text-align:center;"><b>% de<br>defectuosos</b></th>
+               </tr>
+            </thead>
+                <tr>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6</td>
+                    <td style="text-align:center;">4</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;">6/10</td>
+                    <td style="text-align:center;">60%</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3</td>
+                    <td style="text-align:center;">7</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1</td>
+                    <td style="text-align:center;">9</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+        <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
+                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
+               </tr>
+    </table>
+    <br>
+    <br>
+    <a id="Actividad 9"></a>
+    <h1 href="#Actividad 9" class ="activity">Actividad 9</h1>
+    <i>25 minutos</i>
+    <h2>En una hoja blanca para entregar escribe tus datos (grupo, nombre completo y fecha), después
+        copia la Tabla 10 y complétala escribiendo la razón y el porcentaje de Defectuosos de las
+        marcas Shoy y Traxa.
+    </h2>
+    <section class="activity">
+    &#128073;<button onclick="PopWinA3r9()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 9....
+    </button>
+    <br>
+        <br>
+        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        al cierre de esta unidad.)
+
+        </section>
+    <br>
+
+    <a id="Situación 3b"></a>
+    <h1 class="situación">Situación 3... continuación<br>
+    </h1>
+    <i>15 minutos</i>
+    <br>
+    <br>
+    Hasta este punto hemos obtenido los porcentajes de equipos Defectuosos para cada una
+    de las 3 marcas. Pero también nos interesa saber cuál es el porcentaje total
+    de equipos Defectuosos que hay en el inventario independientemente de la marca. Para
+    obtener este dato deberemos trabajar ahora con la suma marginal de frecuencias de las
+    columnas (la última fila que se agregó), en este caso primero obtenemos la razón de celulares
+    defectuosos (10) con respecto al total de celulares en la muestra(30), tal como se muestra
+    en la Tabla 11.
+    <br>
+    <br>
+    <h7 class="tabla">
+        Tabla 11. Frecuencias observadas con marginales, razón y porcentaje (%) del
+        total de equipos defectuosos (10) con respecto al tamaño de muestra (30).
+    </h7>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;">
+            <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>Defectuosos</b></th>
+                   <th style="text-align:center;"><b>Funcionan</b></th>
+                   <th style="text-align:center;"><b>Suma</b></th>
+                   <th style="text-align:center;"><b>razón de<br>defectuosos</b></th>
+                   <th style="text-align:center;"><b>% de<br>defectuosos</b></th>
+               </tr>
+            </thead>
+                <tr>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6</td>
+                    <td style="text-align:center;">4</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;">6/10</td>
+                    <td style="text-align:center;">60%</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3</td>
+                    <td style="text-align:center;">7</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1</td>
+                    <td style="text-align:center;">9</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
+                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                   <td style="text-align:center;">10/30</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                    <td style="text-align:center;font-weight:bold;color:red;"></td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                   <td style="text-align:center;">33.33%</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                    <td style="text-align:center;font-weight:bold;color:red;"></td>
+               </tr>
+    </table>
+    <br>
+    <br>
+
+
+<a id="Actividad 10"></a>
+    <h1 href="#Actividad 10" class ="activity">Actividad 10</h1>
+    <i>40 minutos</i>
+    <h2>En una hoja blanca para entregar escribe tus datos (grupo, nombre completo y fecha),
+        copia la Tabla 11, calcula la razón y proporción de equipos que <b>Funcionan</b> y por
+        último copiay contesta las preguntas que se presentan al final.</h2>
+    &#128073;<button onclick="PopWinA3r10()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 10....</button>
+    <section class="activity">
+    <section class="nota">
+    <b>NOTA</b><br>
+        Deberás agregar dos columnas a la derecha de la Tabla 11 para poder registrar la razón
+        y el porcentaje de equipos de cada marca que si funcionan.
+    </section>
+    <br>
+    <br>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;">
+            <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>Defectuosos</b></th>
+                   <th style="text-align:center;"><b>Funcionan</b></th>
+                   <th style="text-align:center;"><b>Suma</b></th>
+                   <th style="text-align:center;"><b>razón de<br>defectuosos</b></th>
+                   <th style="text-align:center;"><b>% de<br>defectuosos</b></th>
+                   <th style="text-align:center;"><b>razón de<br>Funcionan</b></th>
+                   <th style="text-align:center;"><b>% de<br>Funcionan</b></th>
+               </tr>
+            </thead>
+                <tr>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6</td>
+                    <td style="text-align:center;">4</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;">6/10</td>
+                    <td style="text-align:center;">60%</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3</td>
+                    <td style="text-align:center;">7</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1</td>
+                    <td style="text-align:center;">9</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
+                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                   <td style="text-align:center;">10/30</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                    <td style="text-align:center;font-weight:bold;color:red;"></td>
+               </tr>
+                <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                   <td style="text-align:center;">33.33%</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;"></td>
+                    <td style="text-align:center;font-weight:bold;color:red;"></td>
+               </tr>
+    </table>
+
+        <br>
+        <br>
+        <b>Escribe las siguientes preguntas y contesta lo que se te pide:</b>
+        <br>
+        <br>
+        1. ¿Cuántas filas y cuántas columnas tiene la tabla que completaste?<br>
+        2. ¿Cuál es el dato que nos interesa para en este experimento?<br>
+        3. ¿Cuál es el tamaño de muestra en este experimento?<br>
+        4. ¿Cuál es el porcentaje de equipos defectuosos encontrados en la muestra?<br>
+        5. ¿Cuál es el porcentaje de equipos que si funcionan encontrados en la muestra?<br>
+        6. Con la información que tienes ¿Cual marca comprarías y por qué?<br>
+        7. Con la información que tienes ¿Cual marca consideras que es la de peor calidad? ¿Por qué?<br>
+        8. Si compraras un equipo en esa tienda ¿Cuál marca crees que tendría más posibilidades
+        de salir defectuosa? ¿Por qué?<br>
+        9. Si compraras un equipo en esa tienda ¿Cuál marca crees que tendría menos posibilidades
+        de salir defectuosa? ¿Por qué?
+        <br>
+        <br>
+        <b>Contesta Falso (F) o Verdadero (V)</b>
+        <br>
+        <br>
+        10. Los marginales son las sumas de frecuencias de cada fila y de cada columna.<br>
+        &emsp;&emsp; ( F )  ( V )
+        <br>
+        <br>
+        11. La razón de equipos Defectuosos de la marca Traxa se obtiene dividiendo el
+        valor que aparece en la intersección de la fila 3 y la columna 2, entre el valor
+        que aparece en la intersección de la fila 3 y la columna 4.<br>
+        &emsp;&emsp;( F )  ( V )
+        <br>
+        <br>
+        12. La razón del total de equipos Defectuosos se obtiene dividiendo el
+        valor que aparece en la intersección de la fila 4 y la columna 2, entre el valor
+        que aparece en la intersección de la fila 4 y la columna 4.<br>
+        &emsp;&emsp;( F )  ( V )
+        <br>
+        <br>
+        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        al cierre de esta unidad.)<br>
+
+</section>
+    <br>
+    <br>
+<a id="Lectura 10"></a>
+    <h1 class="Lectura">Lectura 10<br>
+    &emsp;&emsp;Representación gráfica de una variable numérica
+    </h1>
+<i>10 minutos</i>
+    <br>
+    <br>
+    Una técnica que facilita la interpretación de los resultados de un experimento es
+    el uso de gráficas. Cuando realizamos un experimento para observar el comportamiento
+    de una variable, sabemos de antemano que los resultados arrojaran números diferentes,
+    es decir, sabemos que habrá variabilidad en los resultados observados, tal y como lo
+    vimos en el caso de los precios de los celulares, o la cantidad de equipos defectuosos
+    en una tienda, o la cantidad de jitomates podridos que hay en diferentes cajas de una
+    tienda, etc.
+    <br>
+    <br>
+    Aprendimos que es de gran utilidad ordenar los datos en tablas, ya que podemos acceder
+    de manera muy rápida a la información del problema al poder identificar elementos de
+    gran importncia dentro de nuestros datos, como puede ser la cantidad más grande y la cantidad
+    más pequeña. Las gráficas nos permiten acceder a información que muchas veces no puede
+    ser vista directamente en una tabla. En esta sección aprenderemos a construir un tipo de
+    gráfica muy sencilla: la gráfica de puntos. Este tipo de gráfica es ideal para
+    dibujarse a mano y cuando la cantidad de datos no es muy grande.
+    <br>
+    <br>
+    <a id="Situación 4"></a>
+    <h1 class="situación">Situación 4<br>
+        &emsp;Conteo de prendas defectuosas en cajas de ropa
+    </h1>
+    <i>35 minutos</i>
+    <br>
+    <br>
+
+    En un almacén de ropa se hizo un experimento que consistió en revisar 22 cajas de
+    seleccionadas al azar buscando detectar la cantidad de prendas defectuosas en cada caja.
+    Los resultados se muestran en la Tabla 12:
+    <br>
+    <br>
+    <h7 class="tabla">
+        Tabla 12. Número de prendas defectuosas encontradas en cada caja.
+    </h7>
+    <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;"
+           >
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr><th>Número de <br>muestra</th><th>Número de prendas <br>defectuosas</th><tr></thead>
+            <tr style="background-color:grey"><td align="center"> <br></td><td align="center"> <br></td></tr>
+                <tr><td align="center"> Caja 1</td><td align="center">3</td></tr>
+                <tr><td align="center"> Caja 2</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 3</td><td align="center">0</td></tr>
+                <tr><td align="center"> Caja 4</td><td align="center">2</td></tr>
+                <tr><td align="center"> Caja 5</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 6</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 7</td><td align="center">3</td></tr>
+                <tr><td align="center"> Caja 8</td><td align="center">5</td></tr>
+                <tr><td align="center"> Caja 9</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 10</td><td align="center">7</td></tr>
+                <tr><td align="center"> Caja 11</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 12</td><td align="center">1</td></tr>
+                <tr><td align="center"> Caja 13</td><td align="center">5</td></tr>
+                <tr><td align="center"> Caja 14</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 15</td><td align="center">8</td></tr>
+                <tr><td align="center"> Caja 16</td><td align="center">5</td></tr>
+                <tr><td align="center"> Caja 17</td><td align="center">6</td></tr>
+                <tr><td align="center"> Caja 18</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 19</td><td align="center">3</td></tr>
+                <tr><td align="center"> Caja 20</td><td align="center">4</td></tr>
+                <tr><td align="center"> Caja 21</td><td align="center">6</td></tr>
+                <tr><td align="center"> Caja 22</td><td align="center">2</td></tr>
+
+                </table>
+    <br>
+    <br>
+        Con la información recabada construimos el siguiente diagrama de puntos. Los números en
+        el eje representan la cantidad de prendas defectuosas observadas en cada muestra y la altura
+        (puntos rojos) representa el número de cajas en las que se encontró la cantidad de
+        prendas defectuosas que indica el eje x. Por ejemplo, hubo
+        tres cajas en las que se encontró un total de 5 prendas defectuosas, es así que
+        en la gráfica observamos que en el número 5 del eje x hay una altura de 3 puntos.
+    <br>
+    <br>
+        Elabora el diagrama en tu cuaderno con la supervisión de tu profesor.
+    <br>
+    <br>
+        <img src="diagrama de puntos.png" class="zoom1" style="width:60%">
+
+    <br>
+    <br>
+    <br>
+    <br>
+<a id="Actividad 11"></a>
+    <h1 href="#Actividad 11" class ="activity">Actividad 11</h1>
+    <i>25 minutos</i>
+    <h2>En una hoja blanca para entregar escribe tus datos (grupo, nombre completo y fecha), después
+        copia las preguntas y contesta lo que se te pide.
+    </h2>
+    <section class="activity">
+    &#128073;<button onclick="PopWinA3r11()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 11....
+    </button>
+        <br>
+        <br>
+        <b>Observa la gráfica de puntos y contesta las preguntas</b>
+        <br>
+        <br>
+        1. ¿Cuántas cajas formaron la muestra del experimento de la situación 4?<br>
+        2. ¿Cuántos puntos en total hay en la gráfica de puntos?<br>
+        3. ¿Cuántas cajas se encontraron con 7 o más prendas defectuosas?<br>
+        4. ¿Cuántas cajas se encontraron con 1 o menos prendas defectuosas?<br>
+        5. ¿Cuál es la cantidad de prendas defectuosas que apareció con mayor frecuencia en la muestra?<br>
+        6. ¿Cuál es el porcentaje de cajas con 4 prendas defectuosas?<br>
+        7. ¿Cuál es el porcentaje de cajas con 1 o menos prendas defectuosas?<br>
+        8. ¿Cuál es el porcentaje de cajas con 7 o más prendas defectuosas?<br>
+        9. Si tomáramos una caja más de la tienda ¿Crees que hay muchas posibilidades de
+        que encontremos 8 o más prendas defectuosas? ¿Por qué? Argumenta tu respuesta.<br>
+        10. ¿Cuál es la cantidad de prendas defectuosas que se observó con menos frecuencia?<br>
+        <br>
+        <br>
+        <b>Contesta Falso (F) o Verdadero (V)</b>
+        <br>
+        <br>
+        11. El número de puntos de la gráfica corresponde a la cantidad de cajas revisadas.<br>
+        &emsp;(F) &emsp;(V)
+        <br>
+        <br>
+        12. Se encontraron en total 8 cajas donde había 4 prendas defectuosas.<br>
+        &emsp;(F) &emsp;(V)
+        <br>
+        <br>
+        13. El número máximo de prendas defectuosas fue de 8, y solo se observó esa cantidad en una caja.<br>
+        &emsp;(F) &emsp;(V)
+        <br>
+        <br>
+        14. No se encontró ninguna caja que no presentara prendas defectuosas.<br>
+        &emsp;(F) &emsp;(V)
+        <br>
+        <br>
+        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        al cierre de esta unidad.)
+
+        </section>
+        <br>
+    <br>
+    <a id="Lectura 11"></a>
+    <h1 class="Lectura">Lectura 11<br>
+    &emsp;&emsp;Probabilidad y frecuencia
+    </h1>
+    <i>40 minutos</i>
+    <br>
+    <br>
+    Cuando observamos que hay muchas cajas de ropa con 4 prendas defectuosas, y que hay
+    muy pocas cajas con ninguna prenda defectuosa, entonces podemos
+    pensar que si tomamos otra caja extra al azar, hay más posibilidades de que que esa caja
+    traiga 4 prendas defectuosas. Y hemos llegado a esa conjetura gracias a la información
+    que obtuvimos de la muestra analizada, donde la frecuencia de cajas con 4 prendas fue mayor
+    a la frecuencia de cajas con ninguna prenda defectuosa. Con esta idea podemos introducir
+    el concepto de probabilidad.
+    <br>
+    <br>
+    Partiendo de nuestra idea de probabilidad basado en la frecuencia, si volvemos al caso de los equipos
+    de beisbol mencionados en la <a Style="font-weight:bold; color:#7be80a;;" href="#Situación 2">Situación 2</a>, y sabiendo que los Astros han ganado 8 veces
+    durante sus últimos 10 juegos, y que los Cachorros solo han ganado 3 de los últimos 10 juegos,
+    podemos afirmar con base en la frecuencia de juegos ganados, que si esos dos equipos se
+    enfrentan en un siguiente partido, los Astros tienen una mayor <b>probabilidad</b> de ganar.
+    <br>
+    <br>
+    Si retomamos el ejemplo de la <a Style="font-weight:bold; color:#7be80a;;" href="#Situación 3">Situación 3</a> donde se verificaron 3 marcas de
+    televisores para ver cuantos estaban defectuosos, podemos decir con base en la frecuencia
+    observada que si compramos un televisor de la marca <b>Traxa</b> hay muy pocas probabilidades
+    de que este venga defectuoso. Por el contrario, si compramos un televisor de la marca
+    <b>Seyco</b> hay una mayor probabilidad de que salga defectuoso.
+    <br>
+    <br>
+    <section class="aprendizaje">
+    <br>
+    Con la ayuda del profesor analicen la información de la <a Style="font-weight:bold; color:#7be80a;;" href="#Situación 2">Situación 2</a> y
+    de la <a Style="font-weight:bold; color:#7be80a;;" href="#Situación 3">Situación 3</a>. Observa las frecuencias registradas en las tablas
+    y a partir de ahí plantea probabilidades para cada evento de cada espacio muestral.
+    </section>
+    <br>
+    <br>
+    <a id="Situación 5"></a>
+<h1 class="situación">
+
+            &ensp;Situación 5
+            <br>
+            &emsp;&emsp;Probabilidad a priori o clásica
+
+    </h1>
+    <i>120 minutos</i>
+    <br>
+    <br>
+    Si hacemos el experimento de lanzar una moneda, el espacio muestral (los posibles resultados)
+    lo forman dos eventos: M = {águila, sol}. ¿Cuál es la probabilidad de que al lanzar
+    la moneda esta caiga en sol? Podemos representar esa probabilidad mediante la
+    siguiente expresión:
+    <br>
+    <br>
+    &emsp;P(sol) = 1/2
+    <br>
+    <br>
+    Si observas con atención podrás notar que esa probabilidad está dada por una razón,
+    donde se divide el número de resultados esperados entre el número de resultados posibles.
+    Esta probabilidad podemos expresarla también como un porcentaje:
+    <br>
+    <br>
+    &emsp;P(sol) = 0.5 * 100<br>
+    &emsp;P(sol) = 50
+    <br>
+    <br>
+    Entonces al lanzar la moneda, la probabilidad de que caiga en sol es del 50%.
+    <br>
+    <br>
+    Ahora veamos otro ejemplo. un dado tiene 6 caras que vienen marcadas respectivamente
+    del 1 al 6. Si lanzamos el dado ¿Cuál es la probabilidad de que caiga un número par?
+    La expresión matemática para representar esa probabilidad se escribe de la
+    siguiente manera:
+    <br>
+    <br>
+    &emsp; P(par) = 3/6
+    <br>
+    <br>
+    La expresión se contruye siguiendo la misma lógica antes presentada en el ejemplo de la moneda.
+    Se divide la cantidad de resultados esperados entre la cantidad de resultados posibles. Ahora, para
+    expresar esa razón como porcentaje seguimos el mismo procedimiento del caso anterior:
+    <br>
+    <br>
+    &emsp; P(par) = 3/6 = 0.5<br>
+    &emsp; P(par) = 0.5 * 100<br>
+    &emsp; P(par) = 50
+    <br>
+    <br>
+    La probabilidad de que caiga un número par es del 50%.
+    <br>
+    <br>
+    Siguiendo el ejemplo del dado, y con la guía de tu profesor, calcula la probabilidad de
+    que l lanzarlo salga un 2, y después calcula la probabilidad de que salga un número impar. No olvides
+    escribir en tus notas las expresiones matemáticas correspondientes.
+    <br>
+    <br>
+    <a id="Actividad 12"></a>
+    <h1 href="#Actividad 12" class ="activity">Actividad 12</h1>
+    <i>60 minutos</i>
+    <h2>Organicen equipos de 6 integrantes.
+        <br>
+        <br>
+        Material por equipo:
+        <br>
+        <br>
+        &#129094; Una bolsa negra<br>
+        &#129094; 30 pelotitas de unicel: 10 rojas, 10 negras y 10 verdes.<br>
+        &#129094; 10 Hojas blancas<br>
+        &#129094; Colores.
+        <br>
+        <br>
+        Realiza los siguientes experimentos de acuerdo a las
+        instrucciones y con apoyo de tu maestro. Tomas tus notas para hacer tu reporte individual.
+        Registra los resultados de forma ordenada siguiendo el formato de las Tabla 13 y 14.
+        <br>
+        <br>
+        Nota: cada miembro del equipo llevará su propio registro y al final se integrará
+        la información del equipo completo.
+    </h2>
+    <section class="activity">
+    &#128073;<button onclick="PopWinA3r12()"
+                                style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
+                            ver Rúbrica 12....
+    </button>
+
+        <br>
+        <br>
+        <h7 class="tabla">
+        Tabla 13. Estructura de las tablas de registro de probabilidades para cada experimento.
+    </h7>
+        <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;"
+           >
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr><th>P(Rojo)</th><th>P(Negro)</th><th>P(Verde)</th></tr></thead>
+
+                <tr><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center"> </td><td align="center"> </td></tr>
+
+        </table>
+        <br>
+        <br>
+        <h7 class="tabla">
+        Tabla 14. Estructura de las tablas de registro de resultados para cada experimento.
+    </h7>
+        <table border=0
+
+           style="background-color:lightgrey;color:#333333;width:30%;"
+           >
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr><th>turno</th><th>Rojo</th><th>Negro</th><th>Verde</th></tr></thead>
+
+                <tr><td align="center">1</td><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center">2</td><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center">3</td><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center">4</td><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center">5</td><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center">6</td><td align="center"> </td><td align="center"> </td></tr>
+        </table>
+        <br>
+        <br>
+        <h2>
+            P A R T E - 1
+        </h2>
+        <div style="background-color:#887020;">
+        <h2>
+            &emsp;&emsp;EXPERIMENTO I
+        </h2>
+        Prepara el material de la siguiente manera: en la bolsa negra mete 3 pelotitas de
+        cada color (3 rojas, 3 negrs y tres verdes) y cierra la bolsa.
+        <br>
+        <br>
+        El experimento consiste en sacar una pelotita de la bolsa sin mirar. Como
+        podrás darte cuenta, se trata de un experimento aleatorio, es decir, que no
+        podemos saber cuáles serán los resultados al final del experimento.
+        <h2>
+            Paso 1
+        </h2>
+        Antes de sacar la pelotita, escribe en tu hojas las operaciones para
+        calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
+        P(V).
+        <h2>
+            Paso 2
+        </h2>
+        Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
+        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
+        equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
+        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+            </div>
+        <h2>
+
+            &emsp;&emsp;EXPERIMENTO II
+        </h2>
+        Ahora prepara el material de la siguiente manera: mete en la bolsa negra solo
+        una pelotita roja, 3 pelotitas negras y 1 pelotita verde.
+        <br>
+        <br>
+        El experimento consiste en sacar una pelotita de la bolsa sin mirar.
+        <h2>
+            Paso 1
+        </h2>
+        Antes de sacar la pelotita, escribe en tu hoja las operaciones para
+        calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
+        P(V).
+        <h2>
+            Paso 2
+        </h2>
+        Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
+        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
+        equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
+        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+        <div style="background-color:#708820;">
+        <h2>
+            &emsp;&emsp;EXPERIMENTO III
+        </h2>
+        Ahora prepara el material de la siguiente manera: mete en la bolsa negra
+        10 pelotitas rojas, 10 pelotitas negras y 10 pelotitas verdes.
+        <br>
+        <br>
+        El experimento consiste en sacar una pelotita de la bolsa sin mirar.
+        <h2>
+            Paso 1
+        </h2>
+        Antes de sacar la pelotita, escribe en tu hoja las operaciones para
+        calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
+        P(V).
+        <h2>
+            Paso 2
+        </h2>
+        Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
+        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
+        equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
+        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+        </div>
+            <div style="background-color:#207088;">
+        <h2>
+            &emsp;&emsp;EXPERIMENTO IV
+        </h2>
+        Ahora prepara el material de la siguiente manera: mete en la bolsa negra solo
+        3 pelotitas rojas, 10 pelotitas negras y 3 pelotitas verdes.
+        <br>
+        <br>
+        El experimento consiste en sacar una pelotita de la bolsa sin mirar.
+        <h2>
+            Paso 1
+        </h2>
+        Antes de sacar la pelotita, escribe en tu hoja las operaciones para
+        calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
+        P(V).
+        <h2>
+            Paso 2
+        </h2>
+        Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
+        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
+        equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
+        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+            </div>
+    <br>
+        <br>
+        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        al cierre de esta unidad.)
+
+        </section>
+    <br>
+
+
+<!--
+                Se presentan a continuación los datos de las edades de 83 trabajadores
+                de la planta NISSAN - CIVAC, ubicada en el estado de Morelos, México.
+
+                <br>
+                <table  class="table1">
+
+                <p style = "font-family:courier;line-height:17px;padding:0.5%">
+                    Tabla 1. Edades de 83 trabajadores de NISSAN.
+                    <hr>
+                    29 28 39 27 27 30 34 44 30 31 26 28 30 36 27 35 37 29 43 30 30 27 28 55 26 40 28 29 26 31 31 33
+                    36 59 31 25 47 24 57 30 32 27 29 32 28 45 31 35 33 29 26 61 46 27 37 33 24 30 26 34 33 29 31 28
+                    27 28 31 28 28 26 39 28 30 28 31 27 34 32 28 28 27 55 33
+                        <br>
+                    <hr>
+                    </p>
+                    </table>
+<br>
+<br>
+                Para el 50 aniversario de la planta se organizó un concurso en el que se dará como premio un
+                auto nuevo de fábrica. Solo podrán participar los dos trabajadores más puntuales. El concurso
+                consiste en lo siguiente:
+                <br>
+                <br>
+                <div style="padding-left:5%;padding-right:5%;font-style:italic;">
+                En diferentes papelitos se escribirán las edades de los trabajadores de la fábrica. Los 83
+                papelitos con las edades se ingresarán en una tómbola. El concursante deberá sacar un papelito de la tómbola,
+                pero antes de hacerlo tiene que adivinar y decir en voz alta la edad que aparecerá escrita en
+                    el papelito. El ganador será aquel que atine primero la edad del papelito que sale de la tómbola.
+                    <b>Ana</b> y <b>Luis</b> son los participantes.
+                </div>
+                <br>
+                <br>
+                &emsp;<b>Ana</b> gritó el número 30.<br>
+                &emsp;<b>Luis</b> gritó el número 39.
+                <br>
+                <br>
+                Una vez que cada quién gritó un número, ahora deberán meter la mano a la
+                tómbola y sacar cada quien un papelito. Con esta información deberás realizar
+                la <b>Actividad 1</b> que aparece a continuación.
+                <br>
+
+                    <br>
+                    <br>
+                <text>
+                    <p style="background-color:#702170;color:#FFFFFF;font-weight:normal;padding:2%;font-size:21px;">
+                        <br>
+                        <b>Actividad 1</b>
+
+
+                        &nbsp;&nbsp;Cada estudiante escribe en su libreta las siguientes instrucciones y preguntas.<br><br>
+                        &nbsp;&nbsp; <b>Formen equipos de 4 integrantes.</b><br>
+                &nbsp;&nbsp;a) Consulta la Tabla 1 y registra cuántas veces aparece el número elegido por <b>Ana</b>: <br>
+                &nbsp;&nbsp;b) Consulta la Tabla 1 y registra cuántas veces aparece el número elegido por <b>Luis</b>:
+                        <br>
+                        <br>
+
+                         &nbsp;&nbsp;<b>La siguiente sección se trabaja de manera individual.</b><br>
+                &nbsp;&nbsp;c) ¿Quién crees que tiene más posibilidades de ganar el premio y por qué?<br>
+                 &nbsp;&nbsp;d) De todas las edades registradas en la Tabla 1 ¿Cuál es la que tu escogerías para
+                        tener más posibilidades de ganar el premio?<br>
+                 &nbsp;&nbsp;e) Argumenta por qué escogiste ese número.<br>
+                 &nbsp;&nbsp;f) ¿Cuál es el promedio de edad en la Tabla 1?<br>
+                 &nbsp;&nbsp;g) ¿Cuál es la edad más grande y la edad más chica en la Tabla 1? (Escribe los números
+                        en tu libreta ordenándolos de menor a mayor)<br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        Observa la siguiente imagen y responde en tu libreta lo que se te solicita a continuación.
+                        <br>
+                        <br>
+                    <img src = "https://sclhbg.org/parish/wp-content/uploads/sites/2/2016/07/iStock_000083894005_Medium.jpg"
+             style ="height:auto;width:100%;float:center;" >
+                        <br>
+                        <br>
+                        1. ¿Cuántas personas conforman el grupo que aparece en la foto?<br>
+                        2. ¿Cuál es la proporción de <b>hombres</b> en ese grupo? (exprésalo en porcentaje %)<br>
+                        3. ¿Cuál es la proporción de <b>mujeres</b> en ese grupo? (exprésalo en porcentaje %)<br>
+                    </p></text>
+-->
+</section>
+<button onclick="PopWinA3s1()"
+                                style="font-weight:bold;color:white;width:100px" class="botonBack">
+                   <<</button>
+<button onclick="PopWinA3s3()"
+                                style="font-weight:bold;color:white;width:100px" class="botonNext">
+                   >></button><br>
+<button onclick="PopWinClose()"
+                                style="font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+
+<br>
+<br>
+<br>
+<!--
+                <h5 id="1 sub 1 sub 1">
+                        <br>
+                        <br>
+
+                        <ph5>
+                            2. Conociendo R
+                        </ph5>
+                    </h5>
+                <b>R</b> es un lenguaje y un entorno para la computación estadística y gráficos.
+                Uno de los puntos fuertes de <b>R</b> es la facilidad con la que se pueden
+                producir gráficos bien diseñados con calidad de publicación
+                <a style="color:lightgreen;" href="https://www.r-project.org/about.html" target = _blank>[1]</a>.
+                Instalaremos <b>R</b> en los equipos del laboratorio de cómputo, puedes descargar
+                la última versión en el siguiente
+                <a style="color:lightgreen;" href="https://cran.r-project.org/mirrors.html" target = _blank>sitio&#128072;</a>
+                y escoger el <i>mirror</i> de descarga que te corresponde de acuerdo al país donde te encuentres.
+                <br>
+                <br>
+                Una vez instalado <b>R</b> en tu computadora, en tu libreta realiza a mano las operaciones que
+                se indican en la siguiente
+                &#128073;<button onclick="PopWindowThree()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    l i g a</button> &#128072; al finalizar tu profesor te enseñará
+                como hacer las mismas operaciones utilizando el lenguaje <b>R</b>. Abre el programa <b>R</b> que fue
+                instalado en tu equipo o, alternativamente, si aún no lo tienes
+                instalado, puedes trabajar
+                <b>en línea</b> ingresando al sitio <a style="color:#77e988;" href="https://rdrr.io/snippets/" target = _blank>snippets&#128072;</a>
+                donde deberás ingresar las instrucciones en la ventana de comando. Consulta cualquier duda con tu profesor.
+                <br>
+                <br>
+
+
+                Ingresa el siguiente código:
+                <br>
+                <br>
+                print("La edad mas grande es: ")<br>
+                max(edades)<br>
+                print("--------------------------")<br>
+                print(paste0("La edad mas grande es: ", max(edades)))<br>
+                print(paste0("La edad mas chica es: ", min(edades)))<br>
+                print(paste0("Las veces que se presenta cada edad es: "))<br>
+                table(edades)<br>
+                Observa los 83 datos de las edades de los
+                trabajadores de NISSAN e ingrésalos en <b>R</b> y observa cuántas veces se repite
+                cada número siguiendo las instrucciones que &#128073;<button onclick="PopWindowTwo()"
+                                style="background-color:#9944EE;font-weight:bold;color:white;width:100px">
+                    a q u í</button> se dan.
+
+                <br>
+                <br>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br><br>
+                <br>
+                <br>
+                <br>
+
+<!--
+
+
+
+
+                <h5 id="1 sub 1 sub 1">
+                    <br>
+                    <br>
+                <p style="background:purple;color:white;font-weight:bold;">&emsp;&#129322;Activity 1</p></h5>
+                <h5 id="1 sub 1 sub 1 sub 1">
+                    <br>
+                    <br>
+                    <p style="background:#66C802;color:white">&#128214;&#127911;Reading and listening</p>
+                </h5>
+                1. Read and listen to Miguel, he is the manager's assistant in a busy hotel. He usually
+                deals with the hotel's guests. Today is a busy morning: there is a congress going on
+                at the hotel's premises.
+                &#128073;<a style="color:yellow;" href="https://training.grupoktdra.com/BT-ING5/audio/JJJF/QOAZ" target="_blank"> &#128266; Listen</a> <b>to him and match his statements to the pictures</b>.
+
+                <br>
+                <br>
+                a. Excuse me, sir. You mustn't smoke in here. It's a non-smoking area.<br>
+                b. Madam? Excuse me, but you mustn't carry the pool towels out of the pool area.<br>
+                c. Excuse me, Ma'am. You must leave your wine glass at the lobby bar.<br>
+                d. Excuse me, young man. You mustn't use your scooter in the lobby.<br>
+                e. Excuse me, sir. You must leave a deposit in advance. That's the hotel's policy.<br>
+                f. Excuse me, ladies. I must ask you to move, you are blocking the entrance. But I've
+                already arranged a table for you at the bar.<br>
+                g. Excuse me young lady. You must fill an identity card for your teddy bear. It's hotel's
+                regulations.<br>
+                h. Excuse me, madam. I must ask you to wait for a minute while I bring a wheelchair.<br>
+                <br>
+                <img src = "libro F-001.jpg"
+             class = "center" style ="width:100%">
+                <br>
+                <br>
+                2. Now, practice the sentences. Pay attention to the pronunciation. Listen to the sentences
+                as many times as you need in order to practice.
+                <br>
+                <br>
+
+                <br>
+                <text  id ="pronunciation tip 1">
+                    <p style="background-color:#EF3E54;color:black;font-weight:normal;">
+                        <br>
+                        <br>
+                        <b>Pronunciation practice tip 1</b>
+                        <br>
+                        <br>
+                Listen to each line and repeat it. Practice
+                "shadowing". Shadowing means listening to a short sentence or phrase, and then repeating it
+                afterwards, trying to imitate the sounds, intonation and word stress.</p></text>
+                <br>
+                <br>
+
+-->
+
+
+</body>
+</html>
