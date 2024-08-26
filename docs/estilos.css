@@ -113,6 +113,16 @@ hr{
 }
 
 
+td {
+    border: 1px solid #000;
+}
+
+tr td:last-child {
+    width: 1%;
+    white-space: nowrap;
+}
+
+
 h1{
 background-color:#F49A15;
 color:white;
