@@ -41,6 +41,19 @@ section {
     background-color:#505050;
     }
 
+.botonHome{
+    font-size:16px;
+    background-color:#209049;
+
+    }
+
+
+.botonCerrar{
+    font-size:16px;
+    background-color:#990505;
+
+    }
+
 .botonBack{
     font-size:16px;
     background-color:#e76010;

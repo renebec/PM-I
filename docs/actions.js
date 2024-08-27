@@ -5,35 +5,35 @@ function PopWinClose()
 
 function PopWinHome()
 {
-    window.open("index.html","width=100%", "_self");
+    window.location.replace("index.html","width=100%", "_self");
 }
 
 
 function PopWinA1()
 {
-    window.open("popA1.html","width=100%", "_self");
+    window.location.replace("popA1.html","width=100%", "_self");
 }
 
 function PopWinA2()
 {
-    window.open("popA2.html","width=100%", "_self");
+    window.location.replace("popA2.html","width=100%", "_self");
 }
 
 
 function PopWinA1s1()
 {
-    window.open("popA1s1.html","width=100%", "_self");
+    window.location.replace("popA1s1.html","width=100%", "_self");
 }
 
 
 function PopWinA1s2()
 {
-    window.open("popA1s2.html","width=100%", "_self");
+    window.location.replace("popA1s2.html","width=100%", "_self");
 }
 
 function PopWinA1s3()
 {
-    window.open("popA1s3.html","width=100%", "_self");
+    window.location.replace("popA1s3.html","width=100%", "_self");
 }
 
 function PopWinA1r1()
@@ -59,7 +59,7 @@ function PopWinA1r4()
 
 function PopWinA2s1()
 {
-    window.open("popA2s1.html","width=100%", "_self");
+    window.location.replace("popA2s1.html","width=100%", "_self");
 }
 function PopWinA2r5()
 {
@@ -68,7 +68,7 @@ function PopWinA2r5()
 
 function PopWinA2s2()
 {
-    window.open("popA2s2.html","width=100%", "_self");
+    window.location.replace("popA2s2.html","width=100%", "_self");
 }
 function PopWinA2r6()
 {
@@ -77,7 +77,7 @@ function PopWinA2r6()
 
 function PopWinA2s3()
 {
-    window.open("popA2s3.html","width=100%", "_self");
+    window.location.replace("popA2s3.html","width=100%", "_self");
 }
 function PopWinA2r7()
 {
@@ -87,11 +87,11 @@ function PopWinA2r7()
 
 function PopWinA3()
 {
-    window.open("popA3.html","width=100%", "_self");
+    window.location.replace("popA3.html","width=100%", "_self");
 }
 function PopWinA3s1()
 {
-    window.open("popA3s1.html","width=100%", "_self");
+    window.location.replace("popA3s1.html","width=100%", "_self");
 }
 function PopWinA3r8()
 {
@@ -100,7 +100,7 @@ function PopWinA3r8()
 
 function PopWinA3s2()
 {
-    window.open("popA3s2.html","width=100%", "_self");
+    window.location.replace("popA3s2.html","width=100%", "_self");
 }
 function PopWinA3r9()
 {
@@ -117,7 +117,7 @@ function PopWinA3r11()
 
 function PopWinA3s3()
 {
-    window.open("popA3s3.html","width=100%", "_self");
+    window.location.replace("popA3s3.html","width=100%", "_self");
 }
 
 
