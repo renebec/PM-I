@@ -108,13 +108,12 @@ tbody tr td:first-child {
   word-break: break-all;
 }
 
-th {
-  text-align: left;
-}
+
 
 th{
   text-align: center;
   padding: 5px;
+  font-size: 2px;
 }
 
 tr:hover {background-color: #D6EEEE;}
@@ -122,12 +121,13 @@ tr:hover {background-color: #D6EEEE;}
 hr{
     background-color:#F9BC10;
     width:100%;
-    height:3px;
+    height:2px;
 }
 
 
 td {
     border: 1px solid #000;
+    font-size: 2px;
 }
 
 tr, td:last-child {
@@ -299,12 +299,23 @@ th:nth-child(even),td:nth-child(even) {
   background-color: rgba(150, 212, 212, 0.4);
 }
 
+.tabla, th, td {
 
+  font-family: courier;
+  font-size: 2px;
+  text-height:3px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break:break-all;
+}
 
 .table1, th, td {
   border:1px solid white;
   font-family: courier;
-  font-size: 21px;
+  font-size: 3px;
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
@@ -317,7 +328,7 @@ th:nth-child(even),td:nth-child(even) {
 .table2, td {
     border:1px solid white;
   font-family: courier;
-  font-size: 21px;
+  font-size: 3px;
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
@@ -332,7 +343,7 @@ th:nth-child(even),td:nth-child(even) {
 .table4, td {
     border:1px solid white;
   font-family: courier;
-  font-size: 21px;
+  font-size: 3px;
   border-collapse: collapse;
   text-align: center;
   padding: 5px;
@@ -348,7 +359,7 @@ th:nth-child(even),td:nth-child(even) {
 .table5{
     border:1px solid white;
   font-family: courier;
-  font-size: 21px;
+  font-size: 3px;
   border-collapse: collapse;
   text-align: left;
   padding: 5px;
@@ -375,7 +386,7 @@ th:nth-child(even),td:nth-child(even) {
 .table6, th, td, tr {
     border:0px;
   font-family: courier;
-  font-size: 21px;
+  font-size: 12px;
   border-collapse: collapse;
   text-align: left;
   padding: 5px;
