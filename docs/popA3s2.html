@@ -132,7 +132,7 @@
     el inventario existen equipos defectuosos. El inventario cuenta con un total de
     150 equipos ( N = 150 ) de 3 marcas diferentes (Seyco, Shoy y Traxa). El dueño diseñó un
     experimento que consiste en abrir algunas de las cajas y verificar si el equipo
-    funciona correctamente (Funcionan) o si está defectuoso (Defectuosos). Se decidió tomar una muestra de
+    funciona correctamente (F) o si está defectuoso (D). Se decidió tomar una muestra de
     10 teléfonos de cada una de las marcas que hay en el inventario, lo que da un total
     de 30 equipos para revisar ( n = 30 ). Los resultados
     se muestran en la Tabla 7.
@@ -143,7 +143,7 @@
     </h7>
     <table border=0
 
-           style="background-color:lightgrey;color:#333333;width:30%;">
+           style="background-color:lightgrey;color:#333333;width:10%;">
             <thead style="background-color:#CA3165;color:white;">
                <tr>
                    <th style="text-align:center;">Marca de<br>celular</th>
@@ -181,7 +181,7 @@
     <font size="2" face="Verdana" >
     <table border=0
 
-           style="background-color:lightgrey;color:#333333;width:30%;">
+           style="background-color:lightgrey;color:#333333;width:15%;">
             <thead style="background-color:#CA3165;color:white;">
                <tr>
                    <th style="text-align:center;">Marca de<br>celular</th>
@@ -217,133 +217,94 @@
     </table> </font>
     <br>
     <br>
-    Ahora, si queremos saber el porcentaje de celulares defectuosos solamente de la marca Seyco,
-    basta con dividir la cantidad de Defectuosos de la <b>fila 1</b> entre la suma <b>marginal</b>
-    de la misma fila como se muestra en la Tabla 9:
+    Ahora, si queremos saber el porcentaje de celulares defectuosos de la marca Seyco con
+    respecto a la muestra obtenida,
+    basta con observar la cantidad de Defectuosos de la <b>fila 1</b> en la Tabla 9:
     <br>
     <br>
     <h7 class="tabla">
-        Tabla 9. Frecuencias observadas con marginales y razón de defectuosos de la marca Seyco.
+        Tabla 9. Frecuencias observadas y sus marginales.
     </h7>
     <table border=0
 
-           style="background-color:lightgrey;color:#333333;width:30%;">
+           style="background-color:lightgrey;color:#333333;width:20%;">
             <thead style="background-color:#CA3165;color:white;">
                <tr>
                    <th style="text-align:center;">Marca de<br>celular</th>
                    <th style="text-align:center;"><b>&nbsp;D&nbsp;</b></th>
                    <th style="text-align:center;"><b>&nbsp;F&nbsp;</b></th>
                    <th style="text-align:center;"><b>Suma</b></th>
-                   <th style="text-align:center;"><b>razón de<br> D </b></th>
+
                </tr>
             </thead>
                 <tr>
                    <td style="text-align:center;">Seyco</td>
-                   <td style="text-align:center;">6</td>
-                    <td style="text-align:center;">4</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
-                    <td style="text-align:center;">6/10</td>
+                   <td style="text-align:center;">6/30<br>0.2</td>
+                    <td style="text-align:center;">4/30<br>0.13</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
+
                </tr>
                 <tr>
                    <td style="text-align:center;">Shoy</td>
-                   <td style="text-align:center;">3</td>
-                    <td style="text-align:center;">7</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                   <td style="text-align:center;">3/30<br>0.1</td>
+                    <td style="text-align:center;">7/30<br>0.23</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
                </tr>
                 <tr>
                    <td style="text-align:center;">Traxa</td>
-                   <td style="text-align:center;">1</td>
-                    <td style="text-align:center;">9</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
+                   <td style="text-align:center;">1/30<br>0.03</td>
+                    <td style="text-align:center;">9/30<br>0.3</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
                </tr>
         <tr>
                    <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
-                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
-                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20/30<br>0.66</td>
+                    <td style="text-align:center;font-weight:bold;color:white;background-color:#779970;">30/30<br>1</td>
                </tr>
     </table>
     <br>
     <br>
-    La razón de Defectuosos con respecto al total de equipos de la marca Seyco es:
+    La razón de Defectuosos de la marca Seyco con respecto a la muestra obtenida en el experimento es:
     <br>
     <br>
-    &emsp;6 / 10 = 0.6
+    &emsp;6 / 30 = 0.2
     <br>
     <br>
-    la razón 6/10 nos da como resultado 0.6, si queremos expresar esa razón como porcentaje
+    la expresión 6/30 nos da como resultado 0.2, si queremos expresar esa razón como porcentaje
     basta con multiplicar por 100 el número decimal que obtuvimos:
     <br>
     <br>
-    &emsp;0.6 * 100 = 60
+    &emsp;0.2 * 100 = 20
     <br>
     <br>
-    Y decimos que hay un 60% de equipos Defectuosos en la muestra de la marca Seyco. Ahora
-    agregaremos una columna para escribir el porcentaje de Defectuosos de la marca Seyco como
-    se muestra en la Tabla 10.
-    <br>
-    <br>
-    <h7 class="tabla">
-        Tabla 10. Frecuencias observadas con marginales, razón y porcentaje (%)
-        de defectuosos de la marca Seyco.
-    </h7>
-    <table border=0
+    Y decimos que los celulares <b>Seyco Defectuosos</b> representan el 20% del total de equipos
+    que conforman la muestra del experimento.
 
-           style="background-color:lightgrey;color:#333333;width:30%;font-size:12px;">
-            <thead style="background-color:#CA3165;color:white;">
-               <tr>
-                   <th style="text-align:center;">Marca de<br>celular</th>
-                   <th style="text-align:center;"><b>&nbsp;D&nbsp;</b></th>
-                   <th style="text-align:center;"><b>&nbsp;F&nbsp;</b></th>
-                   <th style="text-align:center;"><b>Suma</b></th>
-                   <th style="text-align:center;"><b>razón<br>D</b></th>
-                   <th style="text-align:center;"><b>%<br>D</b></th>
-               </tr>
-            </thead>
-                <tr>
-                   <td style="text-align:center;">Seyco</td>
-                   <td style="text-align:center;">6</td>
-                    <td style="text-align:center;">4</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
-                    <td style="text-align:center;">6/10</td>
-                    <td style="text-align:center;">60%</td>
-               </tr>
-                <tr>
-                   <td style="text-align:center;">Shoy</td>
-                   <td style="text-align:center;">3</td>
-                    <td style="text-align:center;">7</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
-               </tr>
-                <tr>
-                   <td style="text-align:center;">Traxa</td>
-                   <td style="text-align:center;">1</td>
-                    <td style="text-align:center;">9</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
-               </tr>
-        <tr>
-                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
-                   <td style="text-align:center;font-weight:bold;color:#901010;">10</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;">20</td>
-                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;">30</td>
-               </tr>
-    </table>
     <br>
     <br>
     <a id="Actividad 9"></a>
     <h1 href="#Actividad 9" class ="activity">Actividad 9</h1>
     <i>25 minutos</i>
     <h2>En una hoja blanca para entregar escribe tus datos (grupo, nombre completo y fecha), después
-        copia la Tabla 10 y complétala escribiendo la razón y el porcentaje de Defectuosos de las
-        marcas Shoy y Traxa.
+        copia la Tabla 9 y contesta lo que se te pide a continuación:
     </h2>
     <section class="activity">
+        <br>
+        1. Escribe cuál es el porcentaje que representan los equipos Defectuosos
+        (de cada una de las marcas) con respecto al tamaño de muestra del experimento.
+        <br>
+        2. Escribe cuál es el porcentaje que representan los equipos que si Funcionan
+        (de cada una de las marcas) con respecto al tamaño de muestra del experimento.
+        <br>
+        <br>
     &#128073;<button onclick="PopWinA3r9()"
                                 style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
                             ver Rúbrica 9....
     </button>
     <br>
         <br>
-        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        (Guarda tu actividad en tu carpeta donde irás acumulándolas para una revisión final
         al cierre de esta unidad.)
 
         </section>
@@ -355,90 +316,74 @@
     <i>15 minutos</i>
     <br>
     <br>
-    Hasta este punto hemos obtenido los porcentajes de equipos Defectuosos para cada una
-    de las 3 marcas. Pero también nos interesa saber cuál es el porcentaje total
-    de equipos Defectuosos que hay en el inventario independientemente de la marca. Para
-    obtener este dato deberemos trabajar ahora con la suma marginal de frecuencias de las
-    columnas (la última fila que se agregó), en este caso primero obtenemos la razón de celulares
-    defectuosos (10) con respecto al total de celulares en la muestra(30), tal como se muestra
-    en la Tabla 11.
-    <br>
+    Hasta este punto hemos obtenido el porcentaje, con respecto a la muestra, que representan
+    los equipos Defectuosos y Funcionales de cada marca. Pero también nos interesa saber cuál es el
+    porcentaje total
+    de equipos Defectuosos que hay en la muestra (independientemente de la marca. Para
+    obtener este dato deberemos trabajar ahora con los marginales de las
+    columnas (la última fila que se agregó) de la Tabla 9, en este caso primero obtenemos la razón de celulares
+    defectuosos (10) con respecto al total de celulares en la muestra(30).
+<br>
     <br>
     <h7 class="tabla">
-        Tabla 11. Frecuencias observadas con marginales, razón y porcentaje (%) del
-        total de equipos defectuosos (10) con respecto al tamaño de muestra (30).
+        Tabla 9. Frecuencias observadas y sus marginales.
     </h7>
     <table border=0
 
-           style="background-color:lightgrey;color:#333333;width:30%;font-size:12px;">
+           style="background-color:lightgrey;color:#333333;width:20%;">
             <thead style="background-color:#CA3165;color:white;">
                <tr>
-                   <th style="text-align:center;" class="block">Marca de<br>celular</th>
-                   <th style="text-align:center;" class="block"><b>&nbsp;D&nbsp;</b></th>
-                   <th style="text-align:center;" class="block"><b>&nbsp;F&nbsp;</b></th>
-                   <th style="text-align:center;" class="block"><b>Suma</b></th>
-                   <th style="text-align:center;" class="block"><b>razón<br>D</b></th>
-                   <th style="text-align:center;" class="block"><b>%<br>D</b></th>
+                   <th style="text-align:center;">Marca de<br>celular</th>
+                   <th style="text-align:center;"><b>&nbsp;D&nbsp;</b></th>
+                   <th style="text-align:center;"><b>&nbsp;F&nbsp;</b></th>
+                   <th style="text-align:center;"><b>Suma</b></th>
+
                </tr>
             </thead>
                 <tr>
-                   <td style="text-align:center;" class="block">Seyco</td>
-                   <td style="text-align:center;" class="block">6</td>
-                    <td style="text-align:center;" class="block">4</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;" class="block">10</td>
-                    <td style="text-align:center;" class="block">6/10</td>
-                    <td style="text-align:center;" class="block">60%</td>
+                   <td style="text-align:center;">Seyco</td>
+                   <td style="text-align:center;">6/30<br>0.2</td>
+                    <td style="text-align:center;">4/30<br>0.13</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
+
                </tr>
                 <tr>
-                   <td style="text-align:center;" class="block">Shoy</td>
-                   <td style="text-align:center;" class="block">3</td>
-                    <td style="text-align:center;" class="block">7</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;" class="block">10</td>
+                   <td style="text-align:center;">Shoy</td>
+                   <td style="text-align:center;">3/30<br>0.1</td>
+                    <td style="text-align:center;">7/30<br>0.23</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
                </tr>
                 <tr>
-                   <td style="text-align:center;" class="block">Traxa</td>
-                   <td style="text-align:center;" class="block">1</td>
-                    <td style="text-align:center;" class="block">9</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;" class="block">10</td>
+                   <td style="text-align:center;">Traxa</td>
+                   <td style="text-align:center;">1/30<br>0.03</td>
+                    <td style="text-align:center;">9/30<br>0.3</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
                </tr>
-                <tr>
-                   <td style="text-align:center;font-weight:bold;color:#901010;" class="block">Suma</td>
-                   <td style="text-align:center;font-weight:bold;color:#901010;" class="block">10</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;" class="block">20</td>
-                    <td style="text-align:center;font-weight:bold;color:red;background-color:#779970;" class="block">30</td>
-               </tr>
-                <tr>
-                   <td style="text-align:center;font-weight:bold;color:#901010;" class="block"></td>
-                   <td style="text-align:center;" class="block">10/30</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;" class="block"></td>
-                    <td style="text-align:center;font-weight:bold;color:red;" class="block"></td>
-               </tr>
-                <tr>
-                   <td style="text-align:center;font-weight:bold;color:#901010;" class="block"></td>
-                   <td style="text-align:center;" class="block">33.33%</td>
-                    <td style="text-align:center;font-weight:bold;color:#901010;" class="block"></td>
-                    <td style="text-align:center;font-weight:bold;color:red;" class="block"></td>
+        <tr>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">Suma</td>
+                   <td style="text-align:center;font-weight:bold;color:#901010;">10/30<br>0.33</td>
+                    <td style="text-align:center;font-weight:bold;color:#901010;">20/30<br>0.66</td>
+                    <td style="text-align:center;font-weight:bold;color:white;background-color:#779970;">30/30<br>1</td>
                </tr>
     </table>
     <br>
     <br>
-
+    &emsp;&emsp; 10 / 30 = 0.3333<br>
+    &emsp;&emsp; Los equipos Defectuosos representan el 33.33 % del total de la muestra.
+        <br>
+        <br>
 
 <a id="Actividad 10"></a>
     <h1 href="#Actividad 10" class ="activity">Actividad 10</h1>
     <i>40 minutos</i>
     <h2>En una hoja blanca para entregar escribe tus datos (grupo, nombre completo y fecha),
-        copia la Tabla 11, calcula la razón y proporción de equipos que <b>Funcionan</b> y por
-        último copiay contesta las preguntas que se presentan al final.</h2>
+        copia la Tabla 9. El siguiente experimento consiste en contabilizar únicamente los
+        equipos que si <b>Funcionan</b>. Por
+        último copia y contesta las preguntas que se presentan a continuación.</h2>
     &#128073;<button onclick="PopWinA3r10()"
                                 style="background-color:#FF44EE;font-weight:bold;color:white;width:300px;font-size:18px;">
                             ver Rúbrica 10....</button>
     <section class="activity">
-    <section class="nota">
-    <b>NOTA</b><br>
-        Deberás agregar dos columnas a la derecha de la Tabla 11 para poder registrar la razón
-        y el porcentaje de equipos de cada marca que si funcionan.
-    </section>
     <br>
     <br>
 <!--
@@ -502,39 +447,30 @@
         <b>Escribe las siguientes preguntas y contesta lo que se te pide:</b>
         <br>
         <br>
-        1. ¿Cuántas filas y cuántas columnas tiene la tabla que completaste?<br>
-        2. ¿Cuál es el dato que nos interesa para en este experimento?<br>
+        1. ¿Cuáles son las dimensiones de la Tabla 9?<br>
+        2. ¿Cuál es el la variable que nos interesa para en este experimento?<br>
         3. ¿Cuál es el tamaño de muestra en este experimento?<br>
-        4. ¿Cuál es el porcentaje de equipos defectuosos encontrados en la muestra?<br>
-        5. ¿Cuál es el porcentaje de equipos que si funcionan encontrados en la muestra?<br>
-        6. Con la información que tienes ¿Cual marca comprarías y por qué?<br>
-        7. Con la información que tienes ¿Cual marca consideras que es la de peor calidad? ¿Por qué?<br>
-        8. Si compraras un equipo en esa tienda ¿Cuál marca crees que tendría más posibilidades
-        de salir defectuosa? ¿Por qué?<br>
-        9. Si compraras un equipo en esa tienda ¿Cuál marca crees que tendría menos posibilidades
-        de salir defectuosa? ¿Por qué?
+        4. ¿Cuál es el porcentaje de equipos Funcionales encontrados en la muestra?<br>
+        5. Con la información que tienes ¿Cual marca comprarías y por qué?<br>
+        6. Con la información que tienes ¿Cual marca consideras que es la de peor calidad? ¿Por qué?<br>
         <br>
         <br>
         <b>Contesta Falso (F) o Verdadero (V)</b>
         <br>
         <br>
-        10. Los marginales son las sumas de frecuencias de cada fila y de cada columna.<br>
+        10. Los marginales representan sumas de razones y se encuentran al final de cada fila y de cada columna.<br>
         &emsp;&emsp; ( F )  ( V )
         <br>
         <br>
-        11. La razón de equipos Defectuosos de la marca Traxa se obtiene dividiendo el
-        valor que aparece en la intersección de la fila 3 y la columna 2, entre el valor
-        que aparece en la intersección de la fila 3 y la columna 4.<br>
+        11. El porcentaje que representan los equipos Funcionales de la marca Traxa
+        se obtiene dividiendo la frecuencia
+        que aparece en la intersección de la fila 3 y la columna 3 (9),
+        y dividido entre la suma de frecuencias total (30).<br>
         &emsp;&emsp;( F )  ( V )
         <br>
         <br>
-        12. La razón del total de equipos Defectuosos se obtiene dividiendo el
-        valor que aparece en la intersección de la fila 4 y la columna 2, entre el valor
-        que aparece en la intersección de la fila 4 y la columna 4.<br>
-        &emsp;&emsp;( F )  ( V )
-        <br>
-        <br>
-        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+
+        (Guarda tu actividad en tu carpeta donde irás acumulándolas para una revisión final
         al cierre de esta unidad.)<br>
 
 </section>
@@ -547,22 +483,21 @@
 <i>10 minutos</i>
     <br>
     <br>
-    Una técnica que facilita la interpretación de los resultados de un experimento es
-    el uso de gráficas. Cuando realizamos un experimento para observar el comportamiento
+    Las gráficas son una técnica que facilita la interpretación de los resultados de un experimento.
+    Cuando realizamos un experimento para observar el comportamiento
     de una variable, sabemos de antemano que los resultados arrojaran números diferentes,
     es decir, sabemos que habrá variabilidad en los resultados observados, tal y como lo
-    vimos en el caso de los precios de los celulares, o la cantidad de equipos defectuosos
-    en una tienda, o la cantidad de jitomates podridos que hay en diferentes cajas de una
-    tienda, etc.
+    vimos en el caso de los precios de los celulares, o en la cantidad de equipos defectuosos
+    en una tienda, o en la cantidad de cajas de jitomates con frutos podridos, etc.
     <br>
     <br>
     Aprendimos que es de gran utilidad ordenar los datos en tablas, ya que podemos acceder
     de manera muy rápida a la información del problema al poder identificar elementos de
-    gran importncia dentro de nuestros datos, como puede ser la cantidad más grande y la cantidad
-    más pequeña. Las gráficas nos permiten acceder a información que muchas veces no puede
+    gran importncia dentro de nuestros datos, como puede ser la frecuencia más grande y la frecuencia
+    más pequeña. Las gráficas además nos permitirán acceder a información que muchas veces no puede
     ser vista directamente en una tabla. En esta sección aprenderemos a construir un tipo de
-    gráfica muy sencilla: la gráfica de puntos. Este tipo de gráfica es ideal para
-    dibujarse a mano y cuando la cantidad de datos no es muy grande.
+    gráfica muy sencilla: la gráfica de frecuencia de puntos. Este tipo de gráfica es ideal para
+    dibujarse a mano y es recomendable solo cuando la cantidad de datos es pequeña.
     <br>
     <br>
     <a id="Situación 4"></a>
@@ -573,13 +508,13 @@
     <br>
     <br>
 
-    En un almacén de ropa se hizo un experimento que consistió en revisar 22 cajas de
-    seleccionadas al azar buscando detectar la cantidad de prendas defectuosas en cada caja.
+    En un almacén de ropa se hizo un experimento que consistió en revisar 22 cajas de ropa
+    seleccionadas al azar, el objetivo es identificar la cantidad de prendas defectuosas en cada caja.
     Los resultados se muestran en la Tabla 12:
     <br>
     <br>
     <h7 class="tabla">
-        Tabla 12. Número de prendas defectuosas encontradas en cada caja.
+        Tabla 10. Número de prendas defectuosas encontradas en cada caja.
     </h7>
     <table border=0
 
@@ -615,15 +550,15 @@
                 </table>
     <br>
     <br>
-        Con la información recabada construimos el siguiente diagrama de puntos. Los números en
+        Con la información recabada construimos la siguiente gráfica de frecuencia de puntos. Los números en
         el eje representan la cantidad de prendas defectuosas observadas en cada muestra y la altura
-        (puntos rojos) representa el número de cajas en las que se encontró la cantidad de
+        (puntos rojos) representa el número de cajas encontradas con la cantidad de
         prendas defectuosas que indica el eje x. Por ejemplo, hubo
         tres cajas en las que se encontró un total de 5 prendas defectuosas, es así que
         en la gráfica observamos que en el número 5 del eje x hay una altura de 3 puntos.
     <br>
     <br>
-        Elabora el diagrama en tu cuaderno con la supervisión de tu profesor.
+        Elabora la gráfica en tu cuaderno con la supervisión de tu profesor.
     <br>
     <br>
         <img src="diagrama de puntos.png" class="zoom1" style="width:60%">
@@ -645,11 +580,11 @@
     </button>
         <br>
         <br>
-        <b>Observa la gráfica de puntos y contesta las preguntas</b>
+        <b>Observa la gráfica de frecuencia de puntos y contesta las preguntas</b>
         <br>
         <br>
-        1. ¿Cuántas cajas formaron la muestra del experimento de la situación 4?<br>
-        2. ¿Cuántos puntos en total hay en la gráfica de puntos?<br>
+        1. ¿Cuántas cajas formaron la muestra del experimento?<br>
+        2. ¿Cuántos puntos en total hay en la gráfica?<br>
         3. ¿Cuántas cajas se encontraron con 7 o más prendas defectuosas?<br>
         4. ¿Cuántas cajas se encontraron con 1 o menos prendas defectuosas?<br>
         5. ¿Cuál es la cantidad de prendas defectuosas que apareció con mayor frecuencia en la muestra?<br>
@@ -658,13 +593,12 @@
         8. ¿Cuál es el porcentaje de cajas con 7 o más prendas defectuosas?<br>
         9. Si tomáramos una caja más de la tienda ¿Crees que hay muchas posibilidades de
         que encontremos 8 o más prendas defectuosas? ¿Por qué? Argumenta tu respuesta.<br>
-        10. ¿Cuál es la cantidad de prendas defectuosas que se observó con menos frecuencia?<br>
         <br>
         <br>
         <b>Contesta Falso (F) o Verdadero (V)</b>
         <br>
         <br>
-        11. El número de puntos de la gráfica corresponde a la cantidad de cajas revisadas.<br>
+        11. El número de puntos de la gráfica corresponde al tamaño de muestra.<br>
         &emsp;(F) &emsp;(V)
         <br>
         <br>
@@ -680,7 +614,7 @@
         &emsp;(F) &emsp;(V)
         <br>
         <br>
-        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        (Guarda tu actividad en tu carpeta donde irás acumulándolas para una revisión final
         al cierre de esta unidad.)
 
         </section>
@@ -693,13 +627,13 @@
     <i>40 minutos</i>
     <br>
     <br>
-    Cuando observamos que hay muchas cajas de ropa con 4 prendas defectuosas, y que hay
-    muy pocas cajas con ninguna prenda defectuosa, entonces podemos
-    pensar que si tomamos otra caja extra al azar, hay más posibilidades de que que esa caja
+    Observamos que hay muchas cajas de ropa con 4 prendas defectuosas, y hay
+    muy pocas cajas con ninguna prenda defectuosa. Entonces podemos
+    pensar que si tomamos otra caja extra al azar, hay muchas posibilidades de que esa caja extra
     traiga 4 prendas defectuosas. Y hemos llegado a esa conjetura gracias a la información
-    que obtuvimos de la muestra analizada, donde la frecuencia de cajas con 4 prendas fue mayor
-    a la frecuencia de cajas con ninguna prenda defectuosa. Con esta idea podemos introducir
-    el concepto de probabilidad.
+    que obtuvimos de la muestra analizada, donde la frecuencia de cajas con 4 prendas defectusas fue mayor
+    que la frecuencia de cajas con ninguna prenda defectuosa. Con esta idea podemos introducir el primer
+    acercamiento a la idea de <b>probabilidad</b>.
     <br>
     <br>
     Partiendo de nuestra idea de probabilidad basado en la frecuencia, si volvemos al caso de los equipos
@@ -710,8 +644,8 @@
     <br>
     <br>
     Si retomamos el ejemplo de la <a Style="font-weight:bold; color:#7be80a;;" href="#Situación 3">Situación 3</a> donde se verificaron 3 marcas de
-    televisores para ver cuantos estaban defectuosos, podemos decir con base en la frecuencia
-    observada que si compramos un televisor de la marca <b>Traxa</b> hay muy pocas probabilidades
+    televisores para ver cuantos estaban defectuosos, podemos decir, con base en la frecuencia
+    observada, que si compramos un televisor de la marca <b>Traxa</b> hay muy pocas probabilidades
     de que este venga defectuoso. Por el contrario, si compramos un televisor de la marca
     <b>Seyco</b> hay una mayor probabilidad de que salga defectuoso.
     <br>
@@ -745,7 +679,8 @@
     <br>
     <br>
     Si observas con atención podrás notar que esa probabilidad está dada por una razón,
-    donde se divide el número de resultados esperados entre el número de resultados posibles.
+    donde se divide el <b style="color:yellow">número de resultados esperados</b> entre el
+    <b style="color:cyan">número de resultados posibles</b>.
     Esta probabilidad podemos expresarla también como un porcentaje:
     <br>
     <br>
@@ -766,7 +701,8 @@
     <br>
     <br>
     La expresión se contruye siguiendo la misma lógica antes presentada en el ejemplo de la moneda.
-    Se divide la cantidad de resultados esperados entre la cantidad de resultados posibles. Ahora, para
+    Se divide el <b style="color:yellow">número de resultados esperados</b> (3) entre el
+    <b style="color:cyan">número de resultados posibles</b> (6). Ahora, para
     expresar esa razón como porcentaje seguimos el mismo procedimiento del caso anterior:
     <br>
     <br>
@@ -779,7 +715,7 @@
     <br>
     <br>
     Siguiendo el ejemplo del dado, y con la guía de tu profesor, calcula la probabilidad de
-    que l lanzarlo salga un 2, y después calcula la probabilidad de que salga un número impar. No olvides
+    que al lanzar el dado salga un 2, y después calcula la probabilidad de que salga un número impar. No olvides
     escribir en tus notas las expresiones matemáticas correspondientes.
     <br>
     <br>
@@ -793,18 +729,22 @@
         <br>
         <br>
         &#129094; Una bolsa negra<br>
-        &#129094; 30 pelotitas de unicel: 10 rojas, 10 negras y 10 verdes.<br>
+        &#129094; 90 pelotitas de unicel del número 1.<br>
         &#129094; 10 Hojas blancas<br>
-        &#129094; Colores.
+        &#129094; Plumon rojo.<br>
+        &#129094; Plumon negro.<br>
+        &#129094; Plumon azul.
+
         <br>
         <br>
         Realiza los siguientes experimentos de acuerdo a las
         instrucciones y con apoyo de tu maestro. Tomas tus notas para hacer tu reporte individual.
-        Registra los resultados de forma ordenada siguiendo el formato de las Tabla 13 y 14.
+        Registra los resultados de forma ordenada basado en los formatos A y B que se
+        presentan a continuación y sigue las
+        indicaciones de tu profesor.
         <br>
         <br>
-        Nota: cada miembro del equipo llevará su propio registro y al final se integrará
-        la información del equipo completo.
+        Nota: cada miembro del equipo llevará su propio registro.
     </h2>
     <section class="activity">
     &#128073;<button onclick="PopWinA3r12()"
@@ -815,33 +755,33 @@
         <br>
         <br>
         <h7 class="tabla">
-        Tabla 13. Estructura de las tablas de registro de probabilidades para cada experimento.
+        Tabla 10. Formato A.
     </h7>
         <table border=0
 
-           style="background-color:lightgrey;color:#333333;width:30%;"
+           style="background-color:lightgrey;color:#333333;width:10%;"
            >
 
                <thead style="background-color:#CA3165;color:white;">
-               <tr><th>P(Rojo)</th><th>P(Negro)</th><th>P(Verde)</th></tr></thead>
+               <tr><th>P(Rojo)</th><th>P(Negro)</th><th>P(Azul)</th></tr></thead>
 
-                <tr><td align="center"> </td><td align="center"> </td></tr>
-                <tr><td align="center"> </td><td align="center"> </td></tr>
-                <tr><td align="center"> </td><td align="center"> </td></tr>
+                <tr><td align="center">.</td><td align="center">.</td><td align="center">.</td></tr>
+                <tr><td align="center">.</td><td align="center">.</td><td align="center">.</td></tr>
+                <tr><td align="center">.</td><td align="center">.</td><td align="center">.</td></tr>
 
         </table>
         <br>
         <br>
         <h7 class="tabla">
-        Tabla 14. Estructura de las tablas de registro de resultados para cada experimento.
+        Tabla 11. Formato B.
     </h7>
         <table border=0
 
-           style="background-color:lightgrey;color:#333333;width:30%;"
+           style="background-color:lightgrey;color:#333333;width:20%;"
            >
 
                <thead style="background-color:#CA3165;color:white;">
-               <tr><th>turno</th><th>Rojo</th><th>Negro</th><th>Verde</th></tr></thead>
+               <tr><th>turno</th><th>Rojo</th><th>Negro</th><th>Azul</th></tr></thead>
 
                 <tr><td align="center">1</td><td align="center"> </td><td align="center"> </td></tr>
                 <tr><td align="center">2</td><td align="center"> </td><td align="center"> </td></tr>
@@ -852,6 +792,9 @@
         </table>
         <br>
         <br>
+        Prepara el material de la siguiente manera:<br>
+        pinta 30 pelotitas de color azul, 30 de rojo y 30
+            de negro.
         <h2>
             P A R T E - 1
         </h2>
@@ -859,59 +802,72 @@
         <h2>
             &emsp;&emsp;EXPERIMENTO I
         </h2>
-        Prepara el material de la siguiente manera: en la bolsa negra mete 3 pelotitas de
-        cada color (3 rojas, 3 negras y 3 verdes) y cierra la bolsa.
+
+            <br>
+            <br>
+            En la bolsa negra mete 15 pelotitas rojas, 30 negras y 7 azules; cierra la bolsa.
         <br>
         <br>
-        El experimento consiste en sacar una pelotita de la bolsa sin mirar. Como
-        podrás darte cuenta, se trata de un experimento aleatorio, es decir, que no
-        podemos saber cuáles serán los resultados al final del experimento.
+        El experimento consiste en sacar una pelotita de la bolsa sin mirar y registrar
+            su color. Como
+        podrás darte cuenta, se trata de un experimento aleatorio.
         <h2>
             Paso 1
         </h2>
-        Antes de sacar la pelotita, escribe en tu hojas las operaciones para
-        calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
-        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
-        P(V).
+        Antes de iniciar, escribe en el <b>Formato A</b> la probabilidad a priori de que salga
+            una pelotita roja P(R), la probabilidad
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita azul
+        P(A).
         <h2>
             Paso 2
         </h2>
         Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
-        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        registra en el <b>Formato B</b> el color observado. Una vez registrado el color regresa
         la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
-        equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
-        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+        equipo repite el procedimiento. No olviden ir registrando los resultados en el <b>Formato B</b>.
+            Esta parte
+        del experimento termina hasta que cada miembro del equipo haya pasado <b>2  veces</b>.
+            <br>
+        <br>
+        Reune y unifica la informacón registrada por los demás miembros del equipo.<br>
+        Elabora la gráfica de frecuencia de puntos con los resultados del Experimento I.
             </div>
         <h2>
 
             &emsp;&emsp;EXPERIMENTO II
         </h2>
-        Ahora prepara el material de la siguiente manera: mete en la bolsa negra solo
-        una pelotita roja, 3 pelotitas negras y 1 pelotita verde.
+        Ahora prepara el material de la siguiente manera: <br>
+        mete en la bolsa negra solo
+        15 pelotitas rojas, 30 pelotitas negras y solo 7 pelotitas azules.
         <br>
         <br>
         El experimento consiste en sacar una pelotita de la bolsa sin mirar.
         <h2>
             Paso 1
         </h2>
-        Antes de sacar la pelotita, escribe en tu hoja las operaciones para
+        Antes de iniciar, escribe en tu hoja las operaciones para
         calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
-        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
-        P(V).
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita azul
+        P(A).
         <h2>
             Paso 2
         </h2>
         Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
-        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        registra el color. Una vez registrado el color regresa
         la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
         equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
-        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+        del experimento termina hasta que cada miembro edl equipo haya pasado <b>12 veces</b>.
+        <br>
+        <br>
+        Reune y unifica la informacón registrada por los demás miembros del equipo.<br>
+        Elabora la gráfica de frecuencia de puntos con los resultados del Experimento II.
         <div style="background-color:#708820;">
         <h2>
             &emsp;&emsp;EXPERIMENTO III
         </h2>
-        Ahora prepara el material de la siguiente manera: mete en la bolsa negra
-        10 pelotitas rojas, 10 pelotitas negras y 10 pelotitas verdes.
+        Ahora prepara el material de la siguiente manera: <br>
+            mete en la bolsa negra
+        20 pelotitas rojas, 20 pelotitas negras y 20 pelotitas azules.
         <br>
         <br>
         El experimento consiste en sacar una pelotita de la bolsa sin mirar.
@@ -920,23 +876,28 @@
         </h2>
         Antes de sacar la pelotita, escribe en tu hoja las operaciones para
         calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
-        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
-        P(V).
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita azul
+        P(A).
         <h2>
             Paso 2
         </h2>
         Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
-        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        registra el color. Una vez registrado el color regresa
         la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
         equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
-        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+        del experimento termina hasta que cada miembro edl equipo haya pasado <b>2 veces</b>.
+            <br>
+        <br>
+            Reune y unifica la informacón registrada por los demás miembros del equipo.<br>
+        Elabora la gráfica de frecuencia de puntos con los resultados del Experimento III.
         </div>
             <div style="background-color:#207088;">
         <h2>
             &emsp;&emsp;EXPERIMENTO IV
         </h2>
-        Ahora prepara el material de la siguiente manera: mete en la bolsa negra solo
-        3 pelotitas rojas, 10 pelotitas negras y 3 pelotitas verdes.
+        Ahora prepara el material de la siguiente manera: <br>
+                mete en la bolsa negra solo
+        20 pelotitas rojas, 20 pelotitas negras y 20 pelotitas azules.
         <br>
         <br>
         El experimento consiste en sacar una pelotita de la bolsa sin mirar.
@@ -945,20 +906,24 @@
         </h2>
         Antes de sacar la pelotita, escribe en tu hoja las operaciones para
         calcular cuál es la probabilidad de que salga una pelotita roja P(R), la probabilidad
-        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita verde
-        P(V).
+        de que salga una pelotita negra P(N) y la probabilidad de que salga una pelotita azul
+        P(A).
         <h2>
             Paso 2
         </h2>
         Cada una de los miembros del equipo sacará una pelotita por turnos, al sacar la pelota
-        registra en tu hoja de que color fue el resultado. Una vez registrado el color regresa
+        registra el color. Una vez registrado el color regresa
         la pelotita a la bolsa y revuelve las pelotitas. Después el siguiente miembro del
         equipo repite el procedimiento. No olviden ir registrando los resultados. Esta parte
-        del experimento termina hasta que cada miembro edl equipo haya pasado 5 veces.
+        del experimento termina hasta que cada miembro edl equipo haya pasado <b>12 veces</b>.
+                <br>
+        <br>
+                Reune y unifica la informacón registrada por los demás miembros del equipo.<br>
+        Elabora la gráfica de frecuencia de puntos con los resultados del Experimento IV.
             </div>
     <br>
         <br>
-        (Guarda tu actividad en un Folder donde irás acumulándolas para una revisión final
+        (Guarda tu actividad en tu carpeta para la revisión final
         al cierre de esta unidad.)
 
         </section>
