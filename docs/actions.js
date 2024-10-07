@@ -123,6 +123,39 @@ function PopWinA3s3()
 
 
 
+function PopWinA4()
+{
+    window.location.replace("popA4.html","width=100%", "_self");
+}
+function PopWinA4s1()
+{
+    window.location.replace("popA4s1.html","width=100%", "_self");
+}
+function PopWinA4r12()
+{
+    window.open("popA4r12.html","width=100%", "_self");
+}
+
+function PopWinA4s2()
+{
+    window.location.replace("popA4s2.html","width=100%", "_self");
+}
+function PopWinA4r13()
+{
+    window.open("popA4r13.html","width=100%", "_self");
+}
+function PopWinA4r14()
+{
+    window.open("popA4r14.html","width=100%", "_self");
+}
+
+function PopWinA4s3()
+{
+    window.location.replace("popA4s3.html","width=100%", "_self");
+}
+
+
+
 
 
 
