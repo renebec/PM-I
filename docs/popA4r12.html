@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+
+</head>
+<body id="bodyA1S1s2r4">
+<script src="printer.js"></script>
+<link rel="stylesheet">
+<title>Rúbrica 10</title>
+<!--<div id="html-content-holder" style="background-color: #F0F0F1;
+                color: #00cc65; width: 500px;padding-left: 25px;
+                padding-top: 10px;">-->
+<script src="actions.js"></script>
+<script src="printer.js"></script>
+<div>
+
+<table border=0
+       id="table1"
+           style="background-color:lightgrey;color:#333333"
+           class="center2">
+     <br>
+     Rúbrica 10<br><br>
+    <caption style="caption-side:bottom;text-align: left;font-size:20px">Puntuación máxima: 20 puntos<br>
+        n = suma de puntos obtenidos<br>
+    Calificación = (n &divide; 20) x 10</caption>
+    <button onclick="printFunction()" id="buttonPrintA1S1s2r3">Imprimir</button>
+    <br>
+    <br>
+
+               <thead style="background-color:#CA3165;color:white;">
+               <tr>
+                   <th>
+                       <u>Rasgos a evaluar</u></th>
+                   <th><u>Nivel C: <br>5 puntos</u></th>
+                   <th><u>Nivel B: <br>3 puntos</u></th>
+                   <th><u>Nivel A: <br>0 puntos</u></th>
+               <tr>
+               </thead>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 1</td>
+                        <td align="right">Construye correctamente la tabla de datos con todos sus elementos.</td>
+                    <td align="right">Construye la tabla de datos pero no incluye todos sus elementos.</td>
+                    <td align="right">No construye la tabla de datos.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 2</td>
+                    <td align="right">Identifica y obtiene correctamente las razones y porcentajes que se le piden.</td>
+                    <td align="right">Identifica y obtiene con imprecisiones las razones y porcentajes que se le piden.</td>
+                    <td align="right">No identifica ni presenta las razones ni porcentajes que se le piden.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td>
+                <td align="right"> </td>
+            </tr>
+                <tr>
+                    <td align="left"> Rasgo 3</td>
+                    <td align="right">Toma decisiones con base en la información de la que dispone y las argumenta.</td>
+                    <td align="right">Toma decisiones con base en la información de la que dispone y aunque sin argumentarlas.</td>
+                    <td align="right">No decide con base a la información de la que dispone.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td><td align="right"> </td>
+            </tr>
+            <tr>
+                    <td align="left"> Rasgo 4</td>
+                    <td align="right">Vislumbra claramente una noción de probabilidad basada en la frecuencia y porcentajes.</td>
+                    <td align="right">Vislumbra ligeramente una noción de probabilidad basada en la frecuencia y porcentajes.</td>
+                    <td align="right">No vislumbra nociones de probabilidad.</td>
+                </tr>
+            <tr style="background-color:grey">
+                <td align="right"> <br></td>
+                <td align="right"> <br></td>
+                <td align="right"> </td><td align="right"> </td>
+            </tr>
+
+                </table>
+
+<br>
+    <button onclick="PopWinClose()"
+                                style="background-color:#993622;font-weight:bold;color:white;width:100px" class="boton">
+                   cerrar</button>
+
+    <br>
+
+
+    <!--
+<input id="btn-Preview-Image" type="button"
+                value="Preview" />
+
+    <a id="btn-Convert-Html2Image" href="#">
+        Download
+    </a>
+
+    <br/>
+
+
+    <div id="previewImage"></div>
+
+
+    <script>
+
+        $(document).ready(function() {
+
+            // Global variable
+            var element = $("#html-content-holder");
+
+            // Global variable
+            var getCanvas;
+
+            $("#btn-Preview-Image").on('click', function() {
+                html2canvas(element, {
+                    onrendered: function(canvas) {
+                        $("#previewImage").append(canvas);
+                        getCanvas = canvas;
+                    }
+                });
+            });
+
+            $("#btn-Convert-Html2Image").on('click', function() {
+                var imgageData =
+                    getCanvas.toDataURL("image/png");
+
+                // Now browser starts downloading
+                // it instead of just showing it
+                var newData = imgageData.replace(
+                /^data:image\/png/, "data:application/octet-stream");
+
+                $("#btn-Convert-Html2Image").attr(
+                "download", "GeeksForGeeks.png").attr(
+                "href", newData);
+            });
+        });
+
+    </script>
+
+
+-->
+</div>
+</body>
+</html>

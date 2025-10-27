@@ -114,6 +114,10 @@ function PopWinA3r11()
 {
     window.open("popA3r11.html","width=100%", "_self");
 }
+function PopWinA3r12()
+{
+    window.open("popA3r12.html","width=100%", "_self");
+}
 
 function PopWinA3s3()
 {
